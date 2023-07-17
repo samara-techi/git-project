@@ -12,5 +12,10 @@ public class Utils {
 		Date date = sdf.parse(dateStr);
 		return date;
 	}
+	
+	public String format(Date date) {
+		String dateStr = sdf.format(date);
+		return dateStr;
+	}
 
 }
